@@ -6,7 +6,7 @@ services:
     container_name: wg-easy
     environment:
       - WG_HOST=${IP_ADDRESS}  # Укажи внешний IP
-      - PASSWORD=${PASSWORD}
+      - PASSWORD_HASH=${PASSWORD_HASH}
       - WG_PORT=${WG_PORT}
     cap_add:
       - NET_ADMIN
