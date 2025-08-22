@@ -2,7 +2,7 @@ version: "3.8"
 
 services:
   wg-easy:
-    image: hcr.io/wg-easy/wg-easy:latest
+    image: ghcr.io/wg-easy/wg-easy:latest
     container_name: wg-easy
     environment:
       - WG_HOST=${IP_ADDRESS}  # Укажи внешний IP
