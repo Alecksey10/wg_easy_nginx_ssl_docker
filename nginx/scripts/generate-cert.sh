@@ -1,7 +1,8 @@
 #!/bin/sh
 
+
 SSL_DIR="/etc/nginx/ssl"
-IP_ADDRESS=${IP_ADDRESS:-"127.0.0.1"}
+IP_ADDRESS=${IP_ADDRESS}
 
 mkdir -p "$SSL_DIR"
 

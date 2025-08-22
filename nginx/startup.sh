@@ -7,6 +7,7 @@ if [ ! -f /etc/nginx/ssl/selfsigned.crt ]; then
 fi
 
 # 2. Запланировать автообновление через cron
+# в 00 в 3 часа каждые 10 дней
 echo "0 3 */10 * * /generate-cert.sh && nginx -s reload" > /etc/crontabs/root
 
 # 3. Запустить cron + nginx

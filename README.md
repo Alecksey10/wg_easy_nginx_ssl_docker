@@ -27,4 +27,3 @@ PASSWORD_HASH='$2a$12$1m.uDBDLeBrx10h5Gko5a.Y9w6KAdNwd8gru35Sxq/Rm1kKSVpY5.'
 ```bash
 docker-compose up 
 ```
-
