@@ -205,3 +205,9 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# for wg-easy
+data/wg-easy/*
+
+# for ssl
+nginx/ssl/*
